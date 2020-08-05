@@ -11,7 +11,7 @@ JobSemanal 01
 </p>
 
 <div>
-  <img src="prints/01 - Mobile.jpg" alt="demo" height="500" width="40%">
+  <img src="prints/01 - Mobile.jpg" alt="demo" height="520" width="40%">
   <br>
   <hr>
   <br>
@@ -19,12 +19,12 @@ JobSemanal 01
   <br>
   <hr>
   <br>
-  <img src="prints/03 - Desktop.jpg" alt="demo" height="500" width="100%">
+  <img src="prints/03 - Desktop.jpg" alt="demo" height="500" width="90%">
 </div>
 
 ## Features
 
-Essa aplicação foi desenvolvida como parte do portfólio.
+Projeto para aperfeiçoamento utilizando HTML, CSS e Media Queries para responsividade.
 
 
 ## Getting started
