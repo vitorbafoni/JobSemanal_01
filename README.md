@@ -19,7 +19,7 @@ JobSemanal 01
   <br>
   <hr>
   <br>
-  <img src="prints/03 - Desktop.jpg" alt="demo" height="500" width="90%">
+  <img src="prints/03 - Desktop.jpg" alt="demo" height="500" width="100%">
 </div>
 
 ## Features
