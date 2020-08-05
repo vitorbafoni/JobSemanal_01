@@ -11,11 +11,11 @@ JobSemanal 01
 </p>
 
 <div>
-  <img src="prints/01 - Mobile.jpg" alt="demo" height="500" width="100%">
+  <img src="prints/01 - Mobile.jpg" alt="demo" height="500" width="40%">
   <br>
   <hr>
   <br>
-  <img src="prints/02 - Tablet.jpg" alt="demo" height="500" width="100%">
+  <img src="prints/02 - Tablet.jpg" alt="demo" height="500" width="60%">
   <br>
   <hr>
   <br>
