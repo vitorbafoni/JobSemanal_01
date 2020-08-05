@@ -29,7 +29,7 @@ Projeto para aperfeiçoamento utilizando HTML, CSS e Media Queries para responsi
 
 ## Getting started
 
-Baixe ou clone o repositório: https://github.com/vitorbafoni/portfolio.git e abra o arquivo index.html
+Baixe ou clone o repositório: https://github.com/vitorbafoni/JobSemanal_01.git e abra o arquivo index.html
 
 
 ## License
