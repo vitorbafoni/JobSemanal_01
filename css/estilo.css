@@ -3,11 +3,263 @@
   margin: 0;
   outline: none;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
-body {
-  height: 100vh;
-  background-color: #674BB1;
-}
+
+
+
 
 /** DÁ CONTINUIDADE DAQUI */
+
+/* --------- MOBILE --------- */
+@media screen and (min-width: 375px) and (max-width: 500px) {
+  body {
+    background-color: #674BB1; 
+    background-image: url(../imagem-principal/imagem-principal-1x.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-position-y: 10%;
+  }
+
+  header .logo {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 4% 8%;
+    position: fixed;
+    cursor: pointer;
+  }
+
+  .areaTexto {
+    color: #FFF;
+    display: table;
+    float: left;
+    width: 300px;
+    margin-top: 65%;
+    margin-left: 19%; 
+  }
+
+  .areaTexto .title {
+    font-size: 28px;
+    margin-left: 10%; 
+    margin-bottom: 5%;
+  }
+
+  .areaTexto .texto {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-left: 5%;
+  }
+
+  .areaTexto input {
+    width: 220px;
+    text-align: center;
+    margin-top: 8%;
+    margin-left: 16%;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #674BB1;
+  }
+
+  .areaTexto input:hover {
+    background-color: #d9d9d9;
+  }
+
+  footer .footer {
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 4%;
+    margin-left: 32%;
+  }
+
+  footer .footer i {
+    color: #FFF;
+    background-color: #674BB1;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    margin: 20px;
+    padding: 2px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  body {
+    background-color: #674BB1; 
+    background-image: url(../imagem-principal/imagem-principal-2x.png);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-position-y: 5%;
+  }
+
+  header .logo {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 3% 5%;
+    position: fixed;
+    cursor: pointer;
+  }
+
+  .areaTexto {
+    color: #FFF;
+    display: table;
+    float: left;
+    width: 300px;
+    margin-top: 48%;
+    margin-left: 30%; 
+  }
+
+  .areaTexto .title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .areaTexto .texto {
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+  }
+
+  .areaTexto input {
+    width: 200px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 16%;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #674BB1;
+  }
+
+  .areaTexto input:hover {
+    background-color: #d9d9d9;
+  }
+
+  footer .footer {
+    display: inline-flex;
+    text-decoration: none;
+    float: right;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-right: 3%;
+  }
+
+  footer .footer i {
+    color: #FFF;
+    background-color: #674BB1;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 2px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1920px) {
+  body {
+    background-color: #674BB1; 
+    background-image: url(../imagem-principal/imagem-principal.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    background-position-y: 80%;
+    background-position-x: 25%;
+  }
+
+  /* --------- HEADER --------- */
+  header .logo {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 2% 5%;
+    position: fixed;
+    cursor: pointer;
+  }
+
+  /* ---- Texto ----- */
+  .areaTexto {
+    color: #FFF;
+    display: table;
+    float: left;
+    width: 320px;
+    margin-top: 18%;
+    margin-left: 65%; 
+  }
+
+  /* ---- Título ----- */
+  .areaTexto .title {
+    font-size: 30px;
+    margin-bottom: 8%;
+  }
+
+  /* ---- Parágrafo ----- */
+  .areaTexto .texto {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+  }
+
+  /* ---- Botão Register ----- */
+  .areaTexto input {
+    width: 150px;
+    text-align: center;
+    margin-top: 8%;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #674BB1;
+  }
+
+  .areaTexto input:hover {
+    background-color: #d9d9d9;
+  }
+
+  /* --------- FOOTER --------- */
+
+  footer .footer {
+    display: inline-flex;
+    float: left;
+    margin: 5% 15% 0 79%;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  /* ---- Ícones Redes Sociais ----- */
+  footer .footer i {
+    color: #FFF;
+    background-color: #674BB1;
+    border: 1px solid #FFF;
+    border-radius: 60%;
+    margin: 8px;
+    padding: 2px;
+  }
+}
+
+
+
+
+
+
+
+
